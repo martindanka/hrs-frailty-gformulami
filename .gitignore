@@ -1,1 +1,76 @@
+# R / RStudio
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+.Rbuildignore
+.Renviron
+.Rprofile
+
+# renv / packrat (ignore local package libraries)
+packrat/
+renv/library/
+renv/staging/
+
+# R CMD check / package build artifacts
+*.Rcheck/
+*.tar.gz
+
+# R output/logs
+*.Rout
+*.Rout.save
+
+# macOS
 .DS_Store
+
+# VS Code / Positron
+.vscode/
+
+# Python (venvs, caches)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+.env/
+pip-wheel-metadata/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs and miscellaneous
+*.log
+*.aux
+*.out
+*.toc
+
+# Compiled objects / binaries
+*.o
+*.so
+*.dll
+
+# Large data / results
+# ignore all files under data/ and output/ but keep the directories (track a .gitkeep)
+data/**
+!data/.gitkeep
+
+output/**
+!output/.gitkeep
+# data-raw/
+# results/
+# output/
+# downloads/
+
+# Temporary files
+*~
+*.swp
+
+# Specific files
+flowchart-updated.docx
+analysis-notes.docx
+renv.zip
