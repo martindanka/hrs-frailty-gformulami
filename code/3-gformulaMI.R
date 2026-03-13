@@ -130,9 +130,6 @@ meth_a <- pred_meth_a$meth
 meth_b <- pred_meth_b$meth
 meth_c <- pred_meth_c$meth
 
-# Note: An alternative approach restricting same-wave prediction was tested but the default
-# gFormulaMI left-to-right ordering was retained as recommended by the package authors.
-
 # Estimation (gFormulaMI) -----------------------------------------------------------------------------------------
 
 # Seed for g-formula estimation
